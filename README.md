@@ -4,7 +4,7 @@ This project was made for Introduction to ML classes at Faculty of Mathematics a
 
 ## Authors
 - [Jan Opala](https://github.com/opalaj)
-- [Michał Wietecki](https://github.com/)
+- [Michał Wietecki](https://github.com/michalwietecki)
 
 ## Data used
 The data comes from the dataset [Human Activity Recognition with Smartphones](https://www.kaggle.com/datasets/uciml/human-activity-recognition-with-smartphones).
