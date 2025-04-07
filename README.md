@@ -8,10 +8,16 @@ This project was made for Introduction to ML classes at Faculty of Mathematics a
 
 ## Data used
 The data comes from the dataset [Human Activity Recognition with Smartphones](https://www.kaggle.com/datasets/uciml/human-activity-recognition-with-smartphones).
-It consists of various measurements of bodily movement during activity of subjects including walking, laying and sitting.
+It consists of various measurements of bodily movement during activity of subjects including walking, laying and sitting. Participants recorded spatial data using gyroscopes and accelerometres from their smartphones. Various statistics in three axes were recorded for body and gravity in both time domain and frequency domain.
 
 ## Overview
 We decided to transform the data labels using two different mappings: VHS (vertical movement | horizontal movement | stationary) and WSL (walking | stationary | laying).
+
+Visualization of VHS mapping:
+![VHS visualized](https://github.com/JanOpala/HARClusteringModel/blob/main/vhs_3d.png)
+
+Visualization of WSL mapping:
+![WSL visualized](https://github.com/JanOpala/HARClusteringModel/blob/main/wsl_3d.png)
 
 In our project we applied several clustering techniques (namely k-means, k-means Mini-Batch, Gaussian Mixture and Spectral clustering) and each obtained cluster was compared to existing labels of movement as well as to our mappings via ARI (Adjusted Rand Index).
 
